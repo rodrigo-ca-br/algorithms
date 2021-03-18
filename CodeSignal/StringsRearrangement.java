@@ -2,10 +2,11 @@ package CodeSignal;
 
 public class StringsRearrangement {
 
+    static String[] inputArrayFalse = {"aba", "bbb", "bab"}; 
+    static String[] inputArrayTrue = {"ab", "bb", "ba"};
     public static void main(String[] args) {
-        String[] inputArray = {"aba", "bbb", "bab"};
         StringsRearrangement obj = new StringsRearrangement();
-        System.out.println(obj.stringsRearrangement(inputArray));
+        System.out.println(obj.stringsRearrangement(StringsRearrangement.inputArrayFalse));
     }
 
     boolean stringsRearrangement(String[] inputArray) {
